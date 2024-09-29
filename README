@@ -1,0 +1,37 @@
+# User Authentication System with MongoDB
+
+This project implements a user authentication system using MongoDB for data storage.
+
+## Requirements
+
+- **Java 11+**
+- **Maven**
+- **MongoDB**
+
+## MongoDB Installation
+
+### Windows
+1. Download MongoDB from [here](https://www.mongodb.com/try/download/community).
+2. Install MongoDB and include **MongoDB Compass**.
+3. Start MongoDB by running: `mongod`
+
+### Linux
+1. Install MongoDB: `sudo apt-get install -y mongodb`
+2. Start MongoDB: `sudo systemctl start mongodb`
+
+## Running the Project
+
+1. Install dependencies: `mvn clean install`
+2. Ensure MongoDB runs on `localhost:27017`.
+3. Run the project: `java -jar target/<project-file>.jar`
+
+## User Operations
+
+- **register**: Create a new user.
+- **login**: Log in to the system.
+- **logout**: Log out from the system.
+
+## Notes
+
+- Default port: `27017`
+- Check firewall settings if connection issues occur.
